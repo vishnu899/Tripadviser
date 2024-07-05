@@ -20,18 +20,24 @@ body{
 .navbar__s1__title{
     color: #A435F0;
 }
+.fa{
+    width: 150px;
+}
 .navbar__s2{
-    display: flex;
-    gap: 20px
-    ;
-    
-}
-.navbar__s2 p{
-    background-color: antiquewhite;
     padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display:flex;
+    gap: 10px;
+    align-items: center;
+   
 }
-.sale-image h2{
-    background: transparent;
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
 }
 .navbar__s2 input:focus{
     outline: none;
@@ -40,6 +46,11 @@ body{
     display: flex;
     gap: 10px;
     align-items: center;
+}
+.navbar__s3 p{
+    background-color: #34E0A1;
+    padding: 10px;
+    border-radius: 20px;
 }
 /*My learning Popup*/
 .mylearning{
@@ -60,9 +71,7 @@ cursor: pointer;
 .mylearning:hover .mylearning__popup{
     display: block;
 }
-.navbar__s2 p:hover{
-border-radius: 20px;
-}
+
 
 .categories{
     display: flex;
@@ -77,12 +86,7 @@ border-radius: 20px;
     border-radius: 30px;
    
 }
-.navbar__s3 button{
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border-radius: 20px;
-}
+
 
 .sale-image{
     position: relative;
@@ -92,19 +96,16 @@ border-radius: 20px;
     width: 100%;
    
 }
-.recommended{
-    margin-top: 40px;
-}
 .sale-image__offer{
    
-    
-    background-color:transparent;
+    border: solid black 2px;
+    background-color: white;
    width: 35%;
    padding: 2%;
    position: absolute;
-   top: 40%;
+   top: 10%;
   
-   left: 15%;
+   left: 2%;
  }
 .recommended{
     padding: 10px;
@@ -118,18 +119,9 @@ border-radius: 20px;
 .course-card{
     width: 250px;
 }
-.hai i{
-    gap: 10px
-    ;
-}
-
-.sale-image{
-    background-color:#DBCAFE;
-}
 .course-card img{
     width: 100%;
     height: 50%;
-    border-radius: 10px;
 }
 .course-card{
     flex-grow: 1;
@@ -138,26 +130,6 @@ border-radius: 20px;
 }
 .topics{
     padding: 10px;
-}
-.sale-image{
-    margin-top: 40px;
-}
-.navbar__s7{
-    position: relative;
-    left: 500px
-    
-    ;
-    top
-    : 20px
-    ;
-}
-.footer p:hover{
-  border-bottom: 1px black solid;
-}
-.vis{
-    position: relative;
-    width: 150px
-    ;
 }
 .topics__container{
     display:flex;
@@ -186,16 +158,12 @@ background-color: #A435F0;
 
 .footer{
     padding: 30px;
-    background-color: #FAF1ED;
-    color:black;
+    background-color: black;
+    color: white;
 }
 .footer__one{
     display: flex;
     gap: 10px;
-}
-.footer__one__s4{
-    position: relative;
-    left: 100px;
 }
 .footer__one p{
     margin: 20px;
@@ -207,194 +175,23 @@ background-color: #A435F0;
     align-items: center;
 }
 .footer__one__s1 p:hover{
-     
+     background-color: burlywood;
      cursor: pointer;
 }
 .footer__one__s2 p:hover{
-
+     background-color: burlywood;
      cursor: pointer;
 }
-.footer__one__s3 p:hover{
-
-    cursor: pointer;
-}
-.footer__one__s4 p:hover{
-
-    cursor: pointer;
-}
-.footer__one__s6 p:hover{
-
-    cursor: pointer;
-}
-.vishnu{
-    width: 150px;
-}
-.navbar__s5{
-    display: none;
-}
-.section{
-    position: relative;
-}
-.cr7{
-    position: absolute;
-    width: 30px;
-    top: 15px
-    ;
-    left: 5px;
-    
-}
-.hai i:hover{
-
-}
-.placeholder{
-    left: 10px;
-}
-.p{
-    position: absolute;
-    top: 30px;
-    left: 50px;
-    background-color: #34E0A1;
-    border: 2px #34E0A1 solid;
-}
-hr{
-    width: 250px}
-.vishn{
-    border: rgb(201, 181, 181) 2px solid;
-    text-align: 
-    center;
-    width: 350px;
-    border-radius: 10px
-    ;
-  
-}
-.msd{
-    margin-bottom: 10px;
-    position: relative
-    ;
-    left: 40px;
-    top: 10px;
-border: none;
-width: 100%;
-font-size: 16px;
-background-color: transparent;
-margin-right: 10px;
-padding: 10px;
-
-
-
-display:flex;
-gap: 10px;
-align-items: center;
-
-
-}
-
-.ram{
-background-color: #34E0A1;
-border: #34E0A1 1px solid;
-padding: 10px;
-border-radius: 20px;
-padding: 10px;
-margin-left: 10px;
-margin-right: 10px;
-}
-input:focus{
-outline: none;
-}
-
-.ged{
-    width: 200px;
-}
-.navbar__s7{
-    padding: 10px;
-    border: solid black 1px;
-    border-radius: 30px;
-    width: 40%;
-    display:flex;
-    gap: 10px;
-    align-items: center;
-   
-}
-.era{
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 15px;
-    right: 35px;
-}
-.erra{
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 15px;
-    right: 35px;
-}
-.errra{
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 15px;
-    right: 35px;
-}
-.errrra{
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 15px;
-    right: 35px;
-}
-.errrrra{
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 15px;
-    right: 35px;
-}
-
-
-.O{
-    width: 20px;
-}
-.navbar__s7 input{
-    border: none;
-    width: 100%;
-    font-size: 16px;
-    background-color: transparent;
-}
-.navbar__s7 input:focus{
-    outline: none;
-}
-.navbar__s7 button{
-    background-color: #34E0A1;
-    padding: 10px;
-    border-radius: 20px;
-    border: none;
-}
-.fg{
-    height: 200px;
-}
-.hai{
-    gap: 50px
-    ;
-justify-content: space-between;
-}
-.navbar__s5
 /* mq */
 @media screen and (max-width:800px){
   body{
-    font-size: 15px;
+    font-size: 10px;
   }
 
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:600px){
 .course-card{
     flex-basis: 40%;
-}
-.sale-image__offer{
-    height:50px;
-}
-.recommended{
-    margin-top: 200px;
 }
 .categories{
     display: none;
@@ -402,196 +199,9 @@ justify-content: space-between;
 .navbar__s2,.navbar__s3{
     display: none;
 }
-.cay{
-    position: relative;
-}
-.sale-image__offer{
-    position: relative;
-    bottom: 0px;
-    bottom: 150px;
-}
-.navbar__s7{
-    display: none;
-}
-.navbar__s4 img{
-    width: 20px;
-    height: 20px;
-}
-.navbar__s5{
-    width: 10px;
-    height: 20px;
-}
-.j{
-    position: relative;
-    left: 40px;
-}
-.day{
-    display: none;
-}
-
-.sale-image{
-    height: fit-content;
-background-color: white;
-position: relative;
-top: 20px;
-}
-.dee{
-    display: none;
-}
-.footer__one__s3,.footer__one__s2,.footer__one__s4,.footer__one__s1{
-    display:none;
-}
-.sale-image{
-   
-}
-
-.section{
-    position: relative;
-}
-.cr7{
-    position: absolute;
-    width: 30px;
-    top: 15px
-    ;
-    left: 5px;
-    
-}
-.placeholder{
-    left: 10px;
-}
-.p{
-    position: absolute;
-    top: 30px;
-    left: 50px;
-    background-color: #34E0A1;
-    border: 2px #34E0A1 solid;
-}
-.vis{
-    position: relative;
-    width: 150px;
-    right: 180px;
-    width: 100px;
-}
-hr{
-    width: 400px}
-    .ramu{
-        position: relative;
-    }
-    .vishn{
-        border: rgb(201, 181, 181) 2px solid;
-        text-align: 
-        center;
-        width: 400px;
-        border-radius: 10px
-        ;
-      position: absolute;
-      top: 350px
-      
-      ;
-      right: 30px;
-    }
-.msd{
-    margin-bottom: 10px;
-    position: relative
-    ;
-    left: 40px;
-    top: 10px;
-border: none;
-width: 100%;
-font-size: 16px;
-background-color: transparent;
-margin-right: 10px;
-padding: 10px;
-
-
-
-display:flex;
-gap: 10px;
-align-items: center;
-
-
-}
-.navbar__s4{
-    position: relative;
-    left: 10px;
- bottom: 20px;
-}
-.vishn{
-    height: 100px;
-}
-.vishnu{
-    position: relative;
-    top: 5px;
-}
-
-.ram{
-background-color: #34E0A1;
-border: #34E0A1 1px solid;
-padding: 15px;
-border-radius: 20px;
-padding: 10px;
-margin-left: 10px;
-margin-right: 10px;
-margin-top: 5px;
-padding-top: 10px;
-}
-input:focus{
-outline: none;
-}
-.hei{
-    position: relative;
-    top: 60px;
-}
-.dei{
-    width: 200px;
-    padding: 5px;
-}
-.vis{
-    position: relative;
-    right: 40px;
-    top: 50px;
-}
-
-.n{
-    position: relative;
-right: 470px
-;
-bottom: 20px;
-}
-.navbar__s4{
-    position: relative;
-    top: 15px;
-}
-.hai{
-    position: relative;
-    top: 45px;
-}
-.j{
-    top: 45px;
-}
-.vishnu{
-    position: relative;
-    left: 150px;
-}
-.cay{
-    display: none;
-}
   }
-
   @media screen and (min-width:600px){
   .navbar__s4{
-    display: none;
-  }
-  .vishn{
-    display: none;
-  }
-  .footer__one__s6{
-    display: none;
-  }
-  .hei{
-    display: none;
-  }
-  .n{
     display: none;
   }
 }
