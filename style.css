@@ -205,6 +205,9 @@ border-bottom: 1px solid black;
 .course-card{
     flex-basis: 40%;
 }
+.sale-image__offer{
+    left: 15px;
+}
 .categories{
     display: none;
 }
@@ -217,8 +220,12 @@ border-bottom: 1px solid black;
 .footer__one__s1,.footer__one__s2,.footer__one__s3{
     display: none;
 }
+.div{
+   
+    margin-top: 80px;
+}
 .f{
-    width: 50px;
+    width: 20px;
 }
 .d{
     width: 20px;
@@ -231,4 +238,24 @@ border-bottom: 1px solid black;
   .footer__one__s4{
     display: none;
   }
+  .y{
+    display: none;
+  }
+}
+
+
+
+
+
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+        margin-top: 0px;
+        opacity: 0;
+    }
+    100%{
+        transform: scale(0.5);
+        margin-top: 10px;
+    opacity: 1;
+    }
 }
